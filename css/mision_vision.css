@@ -1,0 +1,71 @@
+/* styles_mision_vision.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #013368;
+}
+
+.container {
+    position: relative;
+}
+
+.menu-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3498db;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #34495e;
+}
+
+.section {
+    margin-top: 200px;
+    display: flex; /* Utilizamos flexbox para alinear las secciones lado a lado */
+}
+
+.mision,
+.vision {
+    border-radius: 10px;
+    flex: 1; /* Ambas secciones tomarán el mismo espacio */
+    padding: 20px;
+    box-sizing: border-box; /* El padding se incluirá en el ancho total */
+    background-color: #557597; /* Color de fondo similar al índice */
+    color: white; /* Color de texto blanco */
+    margin: 10px; /* Añadimos un margen entre los cuadros */
+}
+
+.tex1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilos adicionales según sea necesario para la Misión y la Visión */

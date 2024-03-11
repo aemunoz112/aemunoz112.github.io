@@ -1,0 +1,106 @@
+/* styles_contactar.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    position: relative;
+}
+
+.menu-section {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3498db;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #34495e;
+}
+
+.section {
+    border-radius: 8px;
+    margin-top: 60px;
+    display: flex; /* Utilizamos flexbox para alinear las secciones lado a lado */
+}
+
+.enviar-mensaje {
+    border-radius: 8px;
+    flex: 1; /* La sección de enviar mensaje tomará todo el espacio disponible */
+    padding: 20px;
+    box-sizing: border-box; /* El padding se incluirá en el ancho total */
+    background-color: #013368; /* Color de fondo similar al índice */
+    color: white; /* Color de texto blanco */
+    margin: 10px; /* Añadimos un margen entre los cuadros */
+}
+
+.tex1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px; /* Ajusta el ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.mensaje-button {
+    display: block;
+    margin: 0 auto; /* Alinea el botón en el centro horizontal */
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1971cf;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.mensaje-button:hover {
+    background-color: #1971cf;
+    color: white;
+}
+
+/* Estilos adicionales según sea necesario para enviar mensaje */
